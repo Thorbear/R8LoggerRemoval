@@ -2,6 +2,9 @@
 
 It appears that R8 does not remove logging code the same way that ProGuard does when the `assumenosideeffects` rule is used.
 
+
+## proguard-rules.pro
+
 ```
 -assumenosideeffects class android.util.Log {
     public static *** v(...);
@@ -17,5 +20,12 @@ It appears that R8 does not remove logging code the same way that ProGuard does 
 }
 ```
 
+
+## Decompiled class obfuscated by ProGuard
+
 ![Decompiled class obfuscated by ProGuard](decompiled-proguard.png)
+
+
+## Decompiled class obfuscated by R8
+
 ![Decompiled class obfuscated by R8](decompiled-r8.png)
