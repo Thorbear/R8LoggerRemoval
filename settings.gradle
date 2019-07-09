@@ -1,0 +1,1 @@
+include ':r8loggerremoval', ':slf4jandroid', ':proguardloggerremoval'
