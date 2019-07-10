@@ -15,6 +15,11 @@ buildscript {
         maven {
             url "http://storage.googleapis.com/r8-releases/raw/master"
         }
+        jcenter {
+            content {
+                includeGroup "org.jetbrains.trove4j"
+            }
+        }
     }
 
     dependencies {
