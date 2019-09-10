@@ -3,9 +3,9 @@
 buildscript {
     ext {
         versions = [:]
-        versions.androidxAppcompat = '1.0.2'
-        versions.androidxCore = '1.0.2'
-        versions.kotlin = '1.3.41'
+        versions.androidxAppcompat = '1.1.0'
+        versions.androidxCore = '1.1.0'
+        versions.kotlin = '1.3.50'
         versions.slf4j = '1.8.0-beta4'
     }
 
@@ -24,8 +24,8 @@ buildscript {
 
     dependencies {
         // Must be before the Gradle Plugin for Android.
-        classpath 'com.android.tools:r8:4719342f7b77bd72c4233b47a88005307a104b19'
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools:r8:8b8001e4ad618f02fc359fc213a09633387e65d7'
+        classpath 'com.android.tools.build:gradle:3.4.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
     }
 }
