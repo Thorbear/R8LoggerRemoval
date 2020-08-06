@@ -3,7 +3,7 @@
 buildscript {
     ext {
         versions = [:]
-        versions.androidxAppcompat = '1.1.0'
+        versions.androidxAppcompat = '1.2.0'
         versions.androidxCore = '1.1.0'
         versions.kotlin = '1.3.50'
         versions.slf4j = '1.8.0-beta4'
