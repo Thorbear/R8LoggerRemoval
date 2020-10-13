@@ -25,7 +25,7 @@ buildscript {
     dependencies {
         // Must be before the Gradle Plugin for Android.
         classpath 'com.android.tools:r8:8b8001e4ad618f02fc359fc213a09633387e65d7'
-        classpath 'com.android.tools.build:gradle:3.4.2'
+        classpath 'com.android.tools.build:gradle:4.1.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
     }
 }
